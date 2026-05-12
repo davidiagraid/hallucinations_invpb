@@ -1,0 +1,49 @@
+[project]
+name = "accuracy_bounds"
+version = "0.0.1"
+authors = [
+  { name = "FirstName LastName", email = "firstname.lastname@dlr.de" },
+]
+description = "Project description"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pytest",
+    "click",
+    "pdoc",
+    "numpy",
+    "torch",
+    "tqdm",
+    "joblib",
+    "scipy",
+    ]
+
+[build-system]
+requires = [
+  "setuptools",
+  "wheel",
+  "packaging",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/nm190000/AccuracyBounds"
+Issues = "https://github.com/nm190000/AccuracyBounds"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-vv -rA --durations=0"
+testpaths = [
+    "test",
+]

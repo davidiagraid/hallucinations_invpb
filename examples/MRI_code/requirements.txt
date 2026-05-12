@@ -1,0 +1,11 @@
+-e git+https://github.com/nm19000/AccuracyBounds.git@09f0bfd6cfed91aa4d5f4b536b67939d3a72e740#egg=accuracy_bounds
+fastmri==0.3.0
+h5py==3.15.1
+matplotlib==3.5.1
+numpy==1.23.5
+opencv_python==4.7.0.68
+opencv_python_headless==4.11.0.86
+scikit_image==0.19.3
+scipy==1.8.0
+torch==2.9.0
+tqdm==4.64.1
