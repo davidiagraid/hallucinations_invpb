@@ -223,7 +223,14 @@ Expected training time : 3 hours locally on a standard lenovo thinkpad computer
 If you use this library in your research, please cite:
 
 ```bibtex
-@article{XXX
+@misc{iagaru2026hallucinationsinverseproblemsfundamental,
+      title={On Hallucinations in Inverse Problems: Fundamental Limits and Provable Assessment Methods}, 
+      author={David Iagaru and Nina M. Gottschling and Anders C. Hansen and Josselin Garnier},
+      year={2026},
+      eprint={2605.13146},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML},
+      url={https://arxiv.org/abs/2605.13146}, 
 }
 ```
 
